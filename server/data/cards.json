@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1",
+    "type": "bonus",
+    "title": "Advance 3",
+    "description": "Move forward 3 cases",
+    "audio": "audio/cards/advance3.mp3",
+    "effect": { "move": 3 }
+  },
+  {
+    "id": "c2",
+    "type": "malus",
+    "title": "Lose a turn",
+    "description": "You lose next turn",
+    "audio": "audio/cards/loseturn.mp3",
+    "effect": { "loseTurn": true }
+  },
+  {
+    "id": "c3",
+    "type": "bonus",
+    "title": "Gain XP",
+    "description": "You earn 10 XP",
+    "audio": "audio/cards/gainxp.mp3",
+    "effect": { "xp": 10 }
+  }
+]
