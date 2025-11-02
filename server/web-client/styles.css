@@ -1,0 +1,10 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#f7fafc; color:#222; padding:20px; }
+#app { max-width:900px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.08); }
+h1 { margin-top:0; color:#2b6cb0; }
+#playersList { margin-bottom:1rem; font-weight:bold; }
+#boardView { padding:10px; background:#fff8e6; border-radius:6px; margin-bottom:1rem; }
+#controls { display:flex; gap:10px; align-items:flex-start; }
+#questionArea { margin-top:10px; padding:10px; border:1px dashed #e2e8f0; border-radius:6px; min-width:300px; }
+button { padding:8px 12px; border-radius:6px; border: none; background:#2b6cb0; color:white; cursor:pointer; }
+button:disabled { opacity:0.5; cursor:not-allowed; }
+input, select { padding:8px; border-radius:6px; border:1px solid #e2e8f0; }
